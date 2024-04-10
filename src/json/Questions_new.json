@@ -1,0 +1,230 @@
+{
+    "status": 200,
+    "error": 0,
+    "data": [
+        {
+            "id": 1561708716,
+            "question": "Kitchen facilities?",
+            "serialNumber": 34,
+            "questionType": "textbox",
+            "is_required": "Y",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 07:58:36",
+            "updated_at": "2019-07-10 11:06:46",
+            "deleted_at": null,
+            "answers": []
+        },
+        {
+            "id": 1558956618,
+            "question": "Is there any basement present ?",
+            "serialNumber": 6,
+            "questionType": "dropdown",
+            "is_required": "Y",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016,1558951024",
+            "created_at": "2019-05-27 11:30:18",
+            "updated_at": "2019-07-10 14:47:06",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562770026,
+                    "questionId": "1558956618",
+                    "answer": "SINGLE",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770026,
+                    "questionId": "1558956618",
+                    "answer": "MORE THAN 2",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770026,
+                    "questionId": "1558956618",
+                    "answer": "DOUBLE",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770026,
+                    "questionId": "1558956618",
+                    "answer": "NO",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1558956840,
+            "question": "Number of stories ?",
+            "serialNumber": 5,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032232",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016,1558951024,1558951033,1559105322",
+            "created_at": "2019-05-27 11:34:00",
+            "updated_at": "2022-05-07 06:14:17",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1651904057,
+                    "questionId": "1558956840",
+                    "answer": "e.G+4",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1651904057,
+                    "questionId": "1558956840",
+                    "answer": "c.G+2",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1651904057,
+                    "questionId": "1558956840",
+                    "answer": "d.G+3",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1651904057,
+                    "questionId": "1558956840",
+                    "answer": "f. More than G+4",
+                    "thumb": "",
+                    "sortOrder": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1651904057,
+                    "questionId": "1558956840",
+                    "answer": "b.G+1",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1651904057,
+                    "questionId": "1558956840",
+                    "answer": "a.G(Single)",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1558956954,
+            "question": "Was Building Design Code Followed During Construction ?",
+            "serialNumber": 11,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-27 11:35:54",
+            "updated_at": "2019-07-10 14:48:21",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1651203829,
+                    "questionId": "1558956954",
+                    "answer": "YESjjj",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1651203829,
+                    "questionId": "1558956954",
+                    "answer": "NO",
+                    "thumb": "thumbs_down",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559018025,
+            "question": "Usage of Building?",
+            "serialNumber": 13,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032232,1559032446",
+            "structureType": "1558951642",
+            "surveyorType": "1559109551",
+            "code": "1559105322",
+            "created_at": "2019-05-28 04:33:45",
+            "updated_at": "2022-05-09 04:39:31",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1652071171,
+                    "questionId": "1559018025",
+                    "answer": "a.School",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1263 @@
+{
+    "status": 200,
+    "error": 0,
+    "data": [
+        {
+            "id": 1559021979,
+            "question": "Are vertical bars present in the wall ?",
+            "serialNumber": 12,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558701090,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:39:39",
+            "updated_at": "2019-07-10 12:55:58",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562763358,
+                    "questionId": "1559021979",
+                    "answer": "b.No",
+                    "thumb": "thumbs_down",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562763358,
+                    "questionId": "1559021979",
+                    "answer": "c.Information not available",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562763358,
+                    "questionId": "1559021979",
+                    "answer": "a.Yes",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559022028,
+            "question": "How is Construction Site?",
+            "serialNumber": 2,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:40:28",
+            "updated_at": "2019-07-06 14:35:59",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562423759,
+                    "questionId": "1559022028",
+                    "answer": "c.Partially filled",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562423759,
+                    "questionId": "1559022028",
+                    "answer": "a.No Filling",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562423759,
+                    "questionId": "1559022028",
+                    "answer": "b.Filled land",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562423759,
+                    "questionId": "1559022028",
+                    "answer": "d.Loose sand",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559022115,
+            "question": "Overhang Length",
+            "serialNumber": 1,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:41:55",
+            "updated_at": "2019-07-10 12:29:26",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562761766,
+                    "questionId": "1559022115",
+                    "answer": "h.more than 1.5m",
+                    "thumb": "",
+                    "sortOrder": 8,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562761766,
+                    "questionId": "1559022115",
+                    "answer": "b.Yes 0-0.2m",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562761766,
+                    "questionId": "1559022115",
+                    "answer": "f.Yes 0.8- 1m",
+                    "thumb": "",
+                    "sortOrder": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562761766,
+                    "questionId": "1559022115",
+                    "answer": "g.Yes 1- 1.5m",
+                    "thumb": "",
+                    "sortOrder": 7,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562761766,
+                    "questionId": "1559022115",
+                    "answer": "c.Yes 0.2-0.4m",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562761766,
+                    "questionId": "1559022115",
+                    "answer": "a.No",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562761766,
+                    "questionId": "1559022115",
+                    "answer": "d.Yes 0.4-0.6m",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562761766,
+                    "questionId": "1559022115",
+                    "answer": "e.Yes 0.6-0.8m",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559022251,
+            "question": "Is large open central countryard present?",
+            "serialNumber": 2,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:44:11",
+            "updated_at": "2019-07-10 12:30:33",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562761833,
+                    "questionId": "1559022251",
+                    "answer": "a.Yes",
+                    "thumb": "thumbs_down",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562761833,
+                    "questionId": "1559022251",
+                    "answer": "b.No",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559022304,
+            "question": "Is large door/window opening present ?",
+            "serialNumber": 5,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:45:04",
+            "updated_at": "2019-07-06 14:37:14",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562423834,
+                    "questionId": "1559022304",
+                    "answer": "YES",
+                    "thumb": "thumbs_down",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562423834,
+                    "questionId": "1559022304",
+                    "answer": "NO",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559022364,
+            "question": "Width of the front road(in meter)",
+            "serialNumber": 3,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:46:04",
+            "updated_at": "2019-07-10 12:30:54",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562761854,
+                    "questionId": "1559022364",
+                    "answer": "10-15m",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562761854,
+                    "questionId": "1559022364",
+                    "answer": "2-5m",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562761854,
+                    "questionId": "1559022364",
+                    "answer": "5-10m",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559022421,
+            "question": "Minimum joining distance from adjoining building",
+            "serialNumber": 4,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:47:01",
+            "updated_at": "2019-07-10 12:31:20",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562761880,
+                    "questionId": "1559022421",
+                    "answer": "c. 0.5 m",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562761880,
+                    "questionId": "1559022421",
+                    "answer": "e.1-2m",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562761880,
+                    "questionId": "1559022421",
+                    "answer": "a.No adjoining building",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562761880,
+                    "questionId": "1559022421",
+                    "answer": "d. 0.5-1m",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562761880,
+                    "questionId": "1559022421",
+                    "answer": "f.More than 2 m",
+                    "thumb": "",
+                    "sortOrder": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562761880,
+                    "questionId": "1559022421",
+                    "answer": "b.next to other building",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559022481,
+            "question": "Is door/ Window openings close to corners present ?",
+            "serialNumber": 5,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:48:01",
+            "updated_at": "2019-07-10 12:33:35",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562762871,
+                    "questionId": "1559022481",
+                    "answer": "a.Yes",
+                    "thumb": "thumbs_down",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562762871,
+                    "questionId": "1559022481",
+                    "answer": "b.No",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559022538,
+            "question": "Type of binder(mortar)?",
+            "serialNumber": 13,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:48:58",
+            "updated_at": "2019-07-10 12:57:01",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562763421,
+                    "questionId": "1559022538",
+                    "answer": "d.Cement",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562763421,
+                    "questionId": "1559022538",
+                    "answer": "c.Lime",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562763421,
+                    "questionId": "1559022538",
+                    "answer": "a.Dry",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562763421,
+                    "questionId": "1559022538",
+                    "answer": "b.Mud",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562763421,
+                    "questionId": "1559022538",
+                    "answer": "e.Surkhi",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562763421,
+                    "questionId": "1559022538",
+                    "answer": "f.Not known",
+                    "thumb": "",
+                    "sortOrder": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559022625,
+            "question": "Type of wall unit?",
+            "serialNumber": 10,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:50:25",
+            "updated_at": "2019-07-09 10:20:02",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562667602,
+                    "questionId": "1559022625",
+                    "answer": "d.Adobe stone wall",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562667602,
+                    "questionId": "1559022625",
+                    "answer": "h. No Information avilable",
+                    "thumb": "",
+                    "sortOrder": 8,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562667602,
+                    "questionId": "1559022625",
+                    "answer": "c.Rubble stone wall",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562667602,
+                    "questionId": "1559022625",
+                    "answer": "g.Rough cut stone",
+                    "thumb": "",
+                    "sortOrder": 7,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562667602,
+                    "questionId": "1559022625",
+                    "answer": "e.Ashlar masonry",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562667602,
+                    "questionId": "1559022625",
+                    "answer": "b.Burnt clay brick wall",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562667602,
+                    "questionId": "1559022625",
+                    "answer": "a.Mud Wall",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562667602,
+                    "questionId": "1559022625",
+                    "answer": "f.Masive stone",
+                    "thumb": "",
+                    "sortOrder": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559022696,
+            "question": "Any inserted elements in masonry wall?",
+            "serialNumber": 14,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:51:36",
+            "updated_at": "2019-07-10 12:58:06",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562763486,
+                    "questionId": "1559022696",
+                    "answer": "b.Timber/bamboo frame",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562763486,
+                    "questionId": "1559022696",
+                    "answer": "c.Metal/Reinforcement",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562763486,
+                    "questionId": "1559022696",
+                    "answer": "a.No",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559022753,
+            "question": "Vertical Reinforcement at",
+            "serialNumber": 12,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:52:33",
+            "updated_at": "2019-07-09 10:21:08",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562667668,
+                    "questionId": "1559022753",
+                    "answer": "c.Jamb of opening",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562667668,
+                    "questionId": "1559022753",
+                    "answer": "d.Not provided",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562667668,
+                    "questionId": "1559022753",
+                    "answer": "b.Junctions",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562667668,
+                    "questionId": "1559022753",
+                    "answer": "a.Corners",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559022794,
+            "question": "Different storey heights present?",
+            "serialNumber": 6,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:53:14",
+            "updated_at": "2019-07-10 12:48:26",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562762906,
+                    "questionId": "1559022794",
+                    "answer": "b.No",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562762906,
+                    "questionId": "1559022794",
+                    "answer": "a.Yes",
+                    "thumb": "thumbs_down",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559022859,
+            "question": "Thickness of Exterior Wall ?",
+            "serialNumber": 7,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:54:19",
+            "updated_at": "2019-07-10 12:50:46",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1564381201,
+                    "questionId": "1559022859",
+                    "answer": "9 INCHES",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1564381201,
+                    "questionId": "1559022859",
+                    "answer": "4.5INCHES",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1564381201,
+                    "questionId": "1559022859",
+                    "answer": "Below 4 INCHES",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1564381201,
+                    "questionId": "1559022859",
+                    "answer": "11.5 INCHES",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1564381201,
+                    "questionId": "1559022859",
+                    "answer": "13.5 INCHES",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559022921,
+            "question": "Thickness of Interior/Partition  Wall ?",
+            "serialNumber": 8,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:55:21",
+            "updated_at": "2019-07-10 12:50:01",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1564381231,
+                    "questionId": "1559022921",
+                    "answer": "13.5 INCHES",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1564381231,
+                    "questionId": "1559022921",
+                    "answer": "11.5 INCHES",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1564381231,
+                    "questionId": "1559022921",
+                    "answer": "4.5INCHES",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1564381231,
+                    "questionId": "1559022921",
+                    "answer": "9 INCHES",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559022981,
+            "question": "Layout of Masonry Wall?",
+            "serialNumber": 15,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:56:21",
+            "updated_at": "2019-07-10 12:58:50",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562763530,
+                    "questionId": "1559022981",
+                    "answer": "b.Multiple leaf",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562763530,
+                    "questionId": "1559022981",
+                    "answer": "a.Single Leaf",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559023077,
+            "question": "Plan of Building",
+            "serialNumber": 9,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:57:57",
+            "updated_at": "2019-07-10 12:51:11",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562763071,
+                    "questionId": "1559023077",
+                    "answer": "a.Symmetric",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562763071,
+                    "questionId": "1559023077",
+                    "answer": "b.Asymmetric",
+                    "thumb": "thumbs_down",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559023154,
+            "question": "Is gable band present?",
+            "serialNumber": 16,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:59:14",
+            "updated_at": "2019-07-10 13:09:54",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562764194,
+                    "questionId": "1559023154",
+                    "answer": "b.No",
+                    "thumb": "thumbs_down",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562764194,
+                    "questionId": "1559023154",
+                    "answer": "a.Yes",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559023202,
+            "question": "Are there any falling hazards?",
+            "serialNumber": 10,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 06:00:02",
+            "updated_at": "2019-07-10 12:51:30",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562763090,
+                    "questionId": "1559023202",
+                    "answer": "d.Communication tower",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562763090,
+                    "questionId": "1559023202",
+                    "answer": "b.Cladding",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562763090,
+                    "questionId": "1559023202",
+                    "answer": "e.Sunshade",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562763090,
+                    "questionId": "1559023202",
+                    "answer": "c.Electrical pole",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562763090,
+                    "questionId": "1559023202",
+                    "answer": "a.Chimney",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562763090,
+                    "questionId": "1559023202",
+                    "answer": "f.None",
+                    "thumb": "",
+                    "sortOrder": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559023292,
+            "question": "Is Roof band present ?",
+            "serialNumber": 17,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 06:01:32",
+            "updated_at": "2019-07-10 13:10:18",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562764218,
+                    "questionId": "1559023292",
+                    "answer": "a.Yes",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562764218,
+                    "questionId": "1559023292",
+                    "answer": "b.No",
+                    "thumb": "thumbs_down",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559023328,
+            "question": "Is Lintel Band present?",
+            "serialNumber": 18,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 06:02:08",
+            "updated_at": "2019-07-10 13:10:41",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562764241,
+                    "questionId": "1559023328",
+                    "answer": "a.Yes",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562764241,
+                    "questionId": "1559023328",
+                    "answer": "b.No",
+                    "thumb": "thumbs_down",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559023375,
+            "question": "Is there any soft storey present ?",
+            "serialNumber": 11,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1559109551",
+            "code": "1558951016,1558951024",
+            "created_at": "2019-05-28 06:02:55",
+            "updated_at": "2019-07-10 12:51:54",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562763114,
+                    "questionId": "1559023375",
+                    "answer": "b.No",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562763114,
+                    "questionId": "1559023375",
+                    "answer": "a.Yes",
+                    "thumb": "thumbs_down",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559023427,
+            "question": "Is Plinth Band present ?",
+            "serialNumber": 19,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558701502",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016,1558951024,1558951033",
+            "created_at": "2019-05-28 06:03:47",
+            "updated_at": "2019-07-10 13:23:56",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562765036,
+                    "questionId": "1559023427",
+                    "answer": "b.No",
+                    "thumb": "thumbs_down",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562765036,
+                    "questionId": "1559023427",
+                    "answer": "a.Yes",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        }
+    ]
+}

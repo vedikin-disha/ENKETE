@@ -1,0 +1,40 @@
+{
+    "condition_survey": "",
+    "distress_pattern_0": "",
+    "pic_0": {
+        "base64": "",
+        "mime": ""
+    },
+    "pic_1": {
+        "base64": "",
+        "mime": ""
+    },
+    "sdli_draing_ref_0": "",
+    "sdli_draing_ref_1": "",
+    "structural_member_0": "",
+    "structural_member_1": "",
+    "urgency_of_repair_0": "",
+    "damage_scale_0": "",
+    "surrounding_env_0": "",
+    "vulnerability_indices_0": "",
+    "distress_pattern_1": "",
+    "pic_2": {
+        "base64": "",
+        "mime": ""
+    },
+    "pic_3": {
+        "base64": "",
+        "mime": ""
+    },
+    "sdli_draing_ref_2": "",
+    "sdli_draing_ref_3": "",
+    "structural_member_2": "",
+    "structural_member_3": "",
+    "urgency_of_repair_1": "",
+    "damage_scale_1": "",
+    "surrounding_env_1": "",
+    "vulnerability_indices_1": "",
+    "root_couse_analysis": "",
+    "restoration_strategy": "",
+    "conclusive_remark": ""
+}

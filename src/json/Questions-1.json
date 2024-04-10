@@ -1,0 +1,1754 @@
+{
+    "status": 200,
+    "error": 0,
+    "data": [
+        {
+            "id": 1559019310,
+            "question": "Are you surveying a complete Building?",
+            "serialNumber": 1,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424",
+            "code": "1558951016",
+            "created_at": "2019-05-28 04:55:10",
+            "updated_at": "2019-07-09 10:02:41",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562666561,
+                    "questionId": "1559019310",
+                    "answer": "b.No",
+                    "thumb": "thumbs_down",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562666561,
+                    "questionId": "1559019310",
+                    "answer": "a.Yes",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559019693,
+            "question": "Total plinth area of the building block?",
+            "serialNumber": 1,
+            "questionType": "textbox",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:01:33",
+            "updated_at": "2019-07-09 09:38:35",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562661411,
+                    "questionId": "1559019693",
+                    "answer": "i.5000-7000 sqft",
+                    "thumb": "",
+                    "sortOrder": 9,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562661411,
+                    "questionId": "1559019693",
+                    "answer": "l.15000-20000 sqft",
+                    "thumb": "",
+                    "sortOrder": 12,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562661411,
+                    "questionId": "1559019693",
+                    "answer": "b.300-500 sqft",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562661411,
+                    "questionId": "1559019693",
+                    "answer": "n. Greater than 30000 sqft",
+                    "thumb": "",
+                    "sortOrder": 14,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562661411,
+                    "questionId": "1559019693",
+                    "answer": "c.500-1000 sqft",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562661411,
+                    "questionId": "1559019693",
+                    "answer": "g.2500-3000 sqft",
+                    "thumb": "",
+                    "sortOrder": 7,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562661411,
+                    "questionId": "1559019693",
+                    "answer": "m.20000-30000 sqft",
+                    "thumb": "",
+                    "sortOrder": 13,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562661411,
+                    "questionId": "1559019693",
+                    "answer": "j.7000-10000 sqft",
+                    "thumb": "",
+                    "sortOrder": 10,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562661411,
+                    "questionId": "1559019693",
+                    "answer": "k.10000-15000 sqft",
+                    "thumb": "",
+                    "sortOrder": 11,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562661411,
+                    "questionId": "1559019693",
+                    "answer": "a.100-300 sqft",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562661411,
+                    "questionId": "1559019693",
+                    "answer": "d.1000-1500 sqft",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562661411,
+                    "questionId": "1559019693",
+                    "answer": "e.1500-2000 sqft",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562661411,
+                    "questionId": "1559019693",
+                    "answer": "h.3000-5000 sqft",
+                    "thumb": "",
+                    "sortOrder": 8,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562661411,
+                    "questionId": "1559019693",
+                    "answer": "f.2000-2500 sqft",
+                    "thumb": "",
+                    "sortOrder": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559020123,
+            "question": "Environment where the building situated ?",
+            "serialNumber": 2,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:08:43",
+            "updated_at": "2019-07-11 12:57:21",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562849841,
+                    "questionId": "1559020123",
+                    "answer": "e.Snow",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849841,
+                    "questionId": "1559020123",
+                    "answer": "b.Coastal",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849841,
+                    "questionId": "1559020123",
+                    "answer": "a.Dry",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849841,
+                    "questionId": "1559020123",
+                    "answer": "d.Rainy",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849841,
+                    "questionId": "1559020123",
+                    "answer": "c.Windy",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559020224,
+            "question": "Building Site Morphology?",
+            "serialNumber": 3,
+            "questionType": "dropdown",
+            "is_required": "Y",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:10:24",
+            "updated_at": "2019-07-09 10:04:51",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562767045,
+                    "questionId": "1559020224",
+                    "answer": "e.RIver bed",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767045,
+                    "questionId": "1559020224",
+                    "answer": "b.High slope of hill",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767045,
+                    "questionId": "1559020224",
+                    "answer": "d.Plain",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767045,
+                    "questionId": "1559020224",
+                    "answer": "c.Midslope",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767045,
+                    "questionId": "1559020224",
+                    "answer": "f.Downward slope",
+                    "thumb": "",
+                    "sortOrder": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767045,
+                    "questionId": "1559020224",
+                    "answer": "a.Hill top",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767045,
+                    "questionId": "1559020224",
+                    "answer": "g.Adjacent to hill slope",
+                    "thumb": "",
+                    "sortOrder": 7,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559020300,
+            "question": "How Staircase is Connected ?",
+            "serialNumber": 4,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:11:40",
+            "updated_at": "2019-07-09 09:39:59",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562665199,
+                    "questionId": "1559020300",
+                    "answer": "c.Enclosed by Rigid Walls (Connected to main structure)",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562665199,
+                    "questionId": "1559020300",
+                    "answer": "d.Not enclosed by rigid walls(Connected to main structure)",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562665199,
+                    "questionId": "1559020300",
+                    "answer": "b.Seperated from Structure",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562665199,
+                    "questionId": "1559020300",
+                    "answer": "a.No staircase present",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559020381,
+            "question": "Symmetricity of staircase in the building?",
+            "serialNumber": 5,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:13:01",
+            "updated_at": "2019-07-09 09:41:56",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1563461107,
+                    "questionId": "1559020381",
+                    "answer": "a. Single staircase present",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1563461107,
+                    "questionId": "1559020381",
+                    "answer": "d. Staircase not Available",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1563461107,
+                    "questionId": "1559020381",
+                    "answer": "c.Available and symmetric",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1563461107,
+                    "questionId": "1559020381",
+                    "answer": "b.Available but assymmetric",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559020450,
+            "question": "Is overhead /water tank present  ?",
+            "serialNumber": 6,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:14:10",
+            "updated_at": "2019-07-10 05:21:37",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562767120,
+                    "questionId": "1559020450",
+                    "answer": "a.Yes",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767120,
+                    "questionId": "1559020450",
+                    "answer": "b.No",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559020514,
+            "question": "Presence of arch /vault with ties ?",
+            "serialNumber": 24,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:15:14",
+            "updated_at": "2019-07-10 14:05:18",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562767518,
+                    "questionId": "1559020514",
+                    "answer": "a.Yes",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767518,
+                    "questionId": "1559020514",
+                    "answer": "b.No",
+                    "thumb": "thumbs_down",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559020612,
+            "question": "Are through stones Present in Wall ?",
+            "serialNumber": 25,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:16:52",
+            "updated_at": "2019-07-10 14:05:42",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562767542,
+                    "questionId": "1559020612",
+                    "answer": "a.Yes",
+                    "thumb": "thumbs_down",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767542,
+                    "questionId": "1559020612",
+                    "answer": "b.No",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559020669,
+            "question": "Behaviour of floor/ roof slab",
+            "serialNumber": 7,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:17:49",
+            "updated_at": "2019-07-10 13:59:06",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562767155,
+                    "questionId": "1559020669",
+                    "answer": "c.Unknown",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767155,
+                    "questionId": "1559020669",
+                    "answer": "b.Rigid",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767155,
+                    "questionId": "1559020669",
+                    "answer": "a.Flexible",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559020728,
+            "question": "Intermediate Floor Slab(except the roof Slab)",
+            "serialNumber": 8,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:18:48",
+            "updated_at": "2019-07-10 13:59:43",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1568376450,
+                    "questionId": "1559020728",
+                    "answer": "b.Light material",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1568376450,
+                    "questionId": "1559020728",
+                    "answer": "a.Heavy timber with brick",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1568376450,
+                    "questionId": "1559020728",
+                    "answer": "c.Jack arch",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1568376450,
+                    "questionId": "1559020728",
+                    "answer": "e.RCC",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1568376450,
+                    "questionId": "1559020728",
+                    "answer": "f.No intermediate slab",
+                    "thumb": "",
+                    "sortOrder": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1568376450,
+                    "questionId": "1559020728",
+                    "answer": "d.Vault arch",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559020818,
+            "question": "Good connections between walls at corners",
+            "serialNumber": 9,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:20:18",
+            "updated_at": "2019-07-10 14:00:15",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562767215,
+                    "questionId": "1559020818",
+                    "answer": "b.No",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767215,
+                    "questionId": "1559020818",
+                    "answer": "a.Yes",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559020999,
+            "question": "Good connection between roof/ floor slabs & walls",
+            "serialNumber": 10,
+            "questionType": "radiobutton",
+            "is_required": "Y",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:23:19",
+            "updated_at": "2019-07-10 14:00:39",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562767239,
+                    "questionId": "1559020999",
+                    "answer": "a.Yes",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767239,
+                    "questionId": "1559020999",
+                    "answer": "b.No",
+                    "thumb": "thumbs_down",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559021093,
+            "question": "Walls distributed symmetrically",
+            "serialNumber": 13,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:24:53",
+            "updated_at": "2019-07-09 09:48:42",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562665722,
+                    "questionId": "1559021093",
+                    "answer": "b.Above one axis",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562665722,
+                    "questionId": "1559021093",
+                    "answer": "a.Above both axis",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562665722,
+                    "questionId": "1559021093",
+                    "answer": "c.None",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559021243,
+            "question": "Is floating walls present?",
+            "serialNumber": 14,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:27:23",
+            "updated_at": "2019-07-09 09:50:46",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562665846,
+                    "questionId": "1559021243",
+                    "answer": "a.About one axis",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562665846,
+                    "questionId": "1559021243",
+                    "answer": "c.None",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562665846,
+                    "questionId": "1559021243",
+                    "answer": "b.About both axis",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559021318,
+            "question": "Long wall without cross walls present",
+            "serialNumber": 16,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:28:38",
+            "updated_at": "2019-07-10 14:09:22",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562767762,
+                    "questionId": "1559021318",
+                    "answer": "a.Yes",
+                    "thumb": "thumbs_down",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767762,
+                    "questionId": "1559021318",
+                    "answer": "b.No",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559021424,
+            "question": "Type of Structure/Building?",
+            "serialNumber": 11,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:30:24",
+            "updated_at": "2019-07-10 14:01:00",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562767260,
+                    "questionId": "1559021424",
+                    "answer": "b.Load Bearing Wall",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767260,
+                    "questionId": "1559021424",
+                    "answer": "a.Framed Structure",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559021530,
+            "question": "Area where the building is located?",
+            "serialNumber": 12,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:32:10",
+            "updated_at": "2019-07-10 14:01:15",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562767275,
+                    "questionId": "1559021530",
+                    "answer": "e.Row",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767275,
+                    "questionId": "1559021530",
+                    "answer": "a.Isolated",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767275,
+                    "questionId": "1559021530",
+                    "answer": "c.End",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767275,
+                    "questionId": "1559021530",
+                    "answer": "d.Corner",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767275,
+                    "questionId": "1559021530",
+                    "answer": "b.Internal",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559021720,
+            "question": "Building built on sprit level ?",
+            "serialNumber": 19,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:35:20",
+            "updated_at": "2019-06-28 09:36:47",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1561725529,
+                    "questionId": "1559021720",
+                    "answer": "a.No",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1561725529,
+                    "questionId": "1559021720",
+                    "answer": "c.Partial basement",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1561725529,
+                    "questionId": "1559021720",
+                    "answer": "b.Entrance on higher slope",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1561725529,
+                    "questionId": "1559021720",
+                    "answer": "d. Entrance on lower slope",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559021767,
+            "question": "Type of Roof",
+            "serialNumber": 13,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:36:07",
+            "updated_at": "2019-07-10 14:01:32",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562767292,
+                    "questionId": "1559021767",
+                    "answer": "a.Flat roof",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767292,
+                    "questionId": "1559021767",
+                    "answer": "c.Hipped roof",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767292,
+                    "questionId": "1559021767",
+                    "answer": "b.Sloping roof",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559021925,
+            "question": "Roofing Material",
+            "serialNumber": 15,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 05:38:45",
+            "updated_at": "2019-07-10 14:02:24",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562767344,
+                    "questionId": "1559021925",
+                    "answer": "b.Brick/Stone Tiles",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767344,
+                    "questionId": "1559021925",
+                    "answer": "d.Rice thaw thatch",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767344,
+                    "questionId": "1559021925",
+                    "answer": "g.Masonry Dome/Vault/Corbelling",
+                    "thumb": "",
+                    "sortOrder": 7,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767344,
+                    "questionId": "1559021925",
+                    "answer": "e.RBC",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767344,
+                    "questionId": "1559021925",
+                    "answer": "f.Masonry Jack Arch",
+                    "thumb": "",
+                    "sortOrder": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767344,
+                    "questionId": "1559021925",
+                    "answer": "a.RCC Slab",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767344,
+                    "questionId": "1559021925",
+                    "answer": "c.Corrugate Iron/Other Sheet",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559023246,
+            "question": "Soil liquefaction Potential",
+            "serialNumber": 20,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424",
+            "code": "1558951016",
+            "created_at": "2019-05-28 06:00:46",
+            "updated_at": "2019-07-06 14:35:06",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562423706,
+                    "questionId": "1559023246",
+                    "answer": "a.Yes",
+                    "thumb": "thumbs_down",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562423706,
+                    "questionId": "1559023246",
+                    "answer": "b.No",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1561713516,
+            "question": "Quality of Maintainance?",
+            "serialNumber": 23,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 09:18:36",
+            "updated_at": "2019-07-10 14:04:44",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562767484,
+                    "questionId": "1561713516",
+                    "answer": "2 (Good)",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767484,
+                    "questionId": "1561713516",
+                    "answer": "3 (Fair)",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767484,
+                    "questionId": "1561713516",
+                    "answer": "1 (Very Good)",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767484,
+                    "questionId": "1561713516",
+                    "answer": "5 ( Very Poor)",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767484,
+                    "questionId": "1561713516",
+                    "answer": "4 ( Poor)",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1561713600,
+            "question": "Type of Foundation ?",
+            "serialNumber": 16,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 09:20:00",
+            "updated_at": "2019-07-10 14:02:47",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1564381284,
+                    "questionId": "1561713600",
+                    "answer": "Strip Footing",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1564381284,
+                    "questionId": "1561713600",
+                    "answer": "Isolated Footting",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1564381284,
+                    "questionId": "1561713600",
+                    "answer": "Raft Foundation",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1564381284,
+                    "questionId": "1561713600",
+                    "answer": "No Information available",
+                    "thumb": "",
+                    "sortOrder": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1564381284,
+                    "questionId": "1561713600",
+                    "answer": "Plie Foundation",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1564381284,
+                    "questionId": "1561713600",
+                    "answer": "Combined footing",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1561713655,
+            "question": "Depth of Foundation ?",
+            "serialNumber": 17,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 09:20:55",
+            "updated_at": "2019-07-10 14:03:05",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562849925,
+                    "questionId": "1561713655",
+                    "answer": "Less than 3m",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849925,
+                    "questionId": "1561713655",
+                    "answer": "More than 3",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849925,
+                    "questionId": "1561713655",
+                    "answer": "No information Available",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1561714090,
+            "question": "Detail of Borewell? ( Depth , Dia ,No)",
+            "serialNumber": 18,
+            "questionType": "textbox",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 09:28:10",
+            "updated_at": "2019-07-10 14:03:19",
+            "deleted_at": null,
+            "answers": []
+        },
+        {
+            "id": 1561714173,
+            "question": "Damp proof course/membrane present?",
+            "serialNumber": 19,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 09:29:33",
+            "updated_at": "2019-07-10 14:03:34",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562767414,
+                    "questionId": "1561714173",
+                    "answer": "Not Present",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767414,
+                    "questionId": "1561714173",
+                    "answer": "Present",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1561714224,
+            "question": "Roof Space Present?",
+            "serialNumber": 20,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 09:30:24",
+            "updated_at": "2019-07-10 14:03:54",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562767434,
+                    "questionId": "1561714224",
+                    "answer": "Not Present",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767434,
+                    "questionId": "1561714224",
+                    "answer": "Present",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1561714271,
+            "question": "Presence of Fall Ceiling?",
+            "serialNumber": 21,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 09:31:11",
+            "updated_at": "2019-07-10 14:04:11",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562767451,
+                    "questionId": "1561714271",
+                    "answer": "No",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767451,
+                    "questionId": "1561714271",
+                    "answer": "Present throughout",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767451,
+                    "questionId": "1561714271",
+                    "answer": "Partial Present",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1561714317,
+            "question": "Wooden Work ( interanal Joinery) present?",
+            "serialNumber": 22,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 09:31:57",
+            "updated_at": "2019-07-10 14:04:26",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562767466,
+                    "questionId": "1561714317",
+                    "answer": "Yes",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767466,
+                    "questionId": "1561714317",
+                    "answer": "No",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1561715259,
+            "question": "Average inter storey heights?",
+            "serialNumber": 14,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558701475",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 09:47:39",
+            "updated_at": "2019-07-10 14:02:03",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562767323,
+                    "questionId": "1561715259",
+                    "answer": "e..5-6m",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767323,
+                    "questionId": "1561715259",
+                    "answer": "a.2-2.5m",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767323,
+                    "questionId": "1561715259",
+                    "answer": "d.3.5-5m",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767323,
+                    "questionId": "1561715259",
+                    "answer": "f.6-7m",
+                    "thumb": "",
+                    "sortOrder": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767323,
+                    "questionId": "1561715259",
+                    "answer": "c.3-3.5m",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767323,
+                    "questionId": "1561715259",
+                    "answer": "b.2.5-3m",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562767323,
+                    "questionId": "1561715259",
+                    "answer": "g.More than 7 m",
+                    "thumb": "",
+                    "sortOrder": 7,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2074 @@
+{
+    "status": 200,
+    "error": 0,
+    "data": [
+        {
+            "id": 1558956618,
+            "question": "Is there any basement present ?",
+            "serialNumber": 6,
+            "questionType": "dropdown",
+            "is_required": "Y",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016,1558951024",
+            "created_at": "2019-05-27 11:30:18",
+            "updated_at": "2019-07-10 14:47:06",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562770026,
+                    "questionId": "1558956618",
+                    "answer": "SINGLE",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770026,
+                    "questionId": "1558956618",
+                    "answer": "MORE THAN 2",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770026,
+                    "questionId": "1558956618",
+                    "answer": "DOUBLE",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770026,
+                    "questionId": "1558956618",
+                    "answer": "NO",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1558956840,
+            "question": "Number of stories ?",
+            "serialNumber": 5,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032232",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016,1558951024,1558951033,1559105322",
+            "created_at": "2019-05-27 11:34:00",
+            "updated_at": "2022-05-07 06:14:17",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1651904057,
+                    "questionId": "1558956840",
+                    "answer": "e.G+4",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1651904057,
+                    "questionId": "1558956840",
+                    "answer": "c.G+2",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1651904057,
+                    "questionId": "1558956840",
+                    "answer": "d.G+3",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1651904057,
+                    "questionId": "1558956840",
+                    "answer": "f. More than G+4",
+                    "thumb": "",
+                    "sortOrder": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1651904057,
+                    "questionId": "1558956840",
+                    "answer": "b.G+1",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1651904057,
+                    "questionId": "1558956840",
+                    "answer": "a.G(Single)",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1558956954,
+            "question": "Was Building Design Code Followed During Construction ?",
+            "serialNumber": 11,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-27 11:35:54",
+            "updated_at": "2019-07-10 14:48:21",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1651203829,
+                    "questionId": "1558956954",
+                    "answer": "YESjjj",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1651203829,
+                    "questionId": "1558956954",
+                    "answer": "NO",
+                    "thumb": "thumbs_down",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559018025,
+            "question": "Usage of Building?",
+            "serialNumber": 13,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032232,1559032446",
+            "structureType": "1558951642",
+            "surveyorType": "1559109551",
+            "code": "1559105322",
+            "created_at": "2019-05-28 04:33:45",
+            "updated_at": "2022-05-09 04:39:31",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1652071171,
+                    "questionId": "1559018025",
+                    "answer": "a.School",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559018146,
+            "question": "How old is your building ?",
+            "serialNumber": 14,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 04:35:46",
+            "updated_at": "2019-07-10 14:49:09",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1565196369,
+                    "questionId": "1559018146",
+                    "answer": "50 - 60 years",
+                    "thumb": "",
+                    "sortOrder": 11,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1565196369,
+                    "questionId": "1559018146",
+                    "answer": "35 - 40 years",
+                    "thumb": "",
+                    "sortOrder": 9,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1565196369,
+                    "questionId": "1559018146",
+                    "answer": "40- 50 years",
+                    "thumb": "",
+                    "sortOrder": 10,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1565196369,
+                    "questionId": "1559018146",
+                    "answer": "15 - 20 years",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1565196369,
+                    "questionId": "1559018146",
+                    "answer": "80-90 years",
+                    "thumb": "",
+                    "sortOrder": 14,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1565196369,
+                    "questionId": "1559018146",
+                    "answer": "10-15 years",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1565196369,
+                    "questionId": "1559018146",
+                    "answer": "90-100 years",
+                    "thumb": "",
+                    "sortOrder": 15,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1565196369,
+                    "questionId": "1559018146",
+                    "answer": "Less than 5 Years",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1565196369,
+                    "questionId": "1559018146",
+                    "answer": "5-10 years",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1565196369,
+                    "questionId": "1559018146",
+                    "answer": "70-80 years",
+                    "thumb": "",
+                    "sortOrder": 13,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1565196369,
+                    "questionId": "1559018146",
+                    "answer": "20- 25 years",
+                    "thumb": "",
+                    "sortOrder": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1565196369,
+                    "questionId": "1559018146",
+                    "answer": "25 - 30 years",
+                    "thumb": "",
+                    "sortOrder": 7,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1565196369,
+                    "questionId": "1559018146",
+                    "answer": "60-70 years",
+                    "thumb": "",
+                    "sortOrder": 12,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1565196369,
+                    "questionId": "1559018146",
+                    "answer": "30 - 35 years",
+                    "thumb": "",
+                    "sortOrder": 8,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1565196369,
+                    "questionId": "1559018146",
+                    "answer": "5 Years",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559018378,
+            "question": "No of Occupants?",
+            "serialNumber": 16,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 04:39:38",
+            "updated_at": "2019-07-10 14:49:42",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1571039181,
+                    "questionId": "1559018378",
+                    "answer": "e.40-50",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1571039181,
+                    "questionId": "1559018378",
+                    "answer": "a.Less than 10",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1571039181,
+                    "questionId": "1559018378",
+                    "answer": "b.10-20",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1571039181,
+                    "questionId": "1559018378",
+                    "answer": "f.50-60",
+                    "thumb": "",
+                    "sortOrder": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1571039181,
+                    "questionId": "1559018378",
+                    "answer": "d.30-40",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1571039181,
+                    "questionId": "1559018378",
+                    "answer": "c.20-30",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1571039181,
+                    "questionId": "1559018378",
+                    "answer": "g.60-80",
+                    "thumb": "",
+                    "sortOrder": 7,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1571039181,
+                    "questionId": "1559018378",
+                    "answer": "h.80-100",
+                    "thumb": "",
+                    "sortOrder": 8,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559018434,
+            "question": "Who designed your building ?",
+            "serialNumber": 12,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 04:40:34",
+            "updated_at": "2019-07-10 14:48:40",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562770120,
+                    "questionId": "1559018434",
+                    "answer": "d.Self designed",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770120,
+                    "questionId": "1559018434",
+                    "answer": "a. Local Mason",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770120,
+                    "questionId": "1559018434",
+                    "answer": "b. Architect",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770120,
+                    "questionId": "1559018434",
+                    "answer": "c. Structural Consultant",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559018470,
+            "question": "Is construction drawing of your building available ?",
+            "serialNumber": 17,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 04:41:10",
+            "updated_at": "2019-07-10 14:50:00",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562770200,
+                    "questionId": "1559018470",
+                    "answer": "NO",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770200,
+                    "questionId": "1559018470",
+                    "answer": "YES",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559018602,
+            "question": "Ground Water table depth",
+            "serialNumber": 18,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 04:43:22",
+            "updated_at": "2019-07-10 14:50:15",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562849892,
+                    "questionId": "1559018602",
+                    "answer": "h.13-15m",
+                    "thumb": "",
+                    "sortOrder": 8,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849892,
+                    "questionId": "1559018602",
+                    "answer": "m.30-35m",
+                    "thumb": "",
+                    "sortOrder": 13,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849892,
+                    "questionId": "1559018602",
+                    "answer": "e.5-7m",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849892,
+                    "questionId": "1559018602",
+                    "answer": "f.7-10m",
+                    "thumb": "",
+                    "sortOrder": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849892,
+                    "questionId": "1559018602",
+                    "answer": "j.18-20m",
+                    "thumb": "",
+                    "sortOrder": 10,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849892,
+                    "questionId": "1559018602",
+                    "answer": "o.More Than 40m",
+                    "thumb": "",
+                    "sortOrder": 15,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849892,
+                    "questionId": "1559018602",
+                    "answer": "a.1-2m",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849892,
+                    "questionId": "1559018602",
+                    "answer": "i.15-18m",
+                    "thumb": "",
+                    "sortOrder": 9,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849892,
+                    "questionId": "1559018602",
+                    "answer": "l.25-30m",
+                    "thumb": "",
+                    "sortOrder": 12,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849892,
+                    "questionId": "1559018602",
+                    "answer": "d.4-5m",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849892,
+                    "questionId": "1559018602",
+                    "answer": "c.3-4m",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849892,
+                    "questionId": "1559018602",
+                    "answer": "p.No information available",
+                    "thumb": "",
+                    "sortOrder": 16,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849892,
+                    "questionId": "1559018602",
+                    "answer": "g.10-13m",
+                    "thumb": "",
+                    "sortOrder": 7,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849892,
+                    "questionId": "1559018602",
+                    "answer": "b.2-3m",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849892,
+                    "questionId": "1559018602",
+                    "answer": "n.35-38m",
+                    "thumb": "",
+                    "sortOrder": 14,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849892,
+                    "questionId": "1559018602",
+                    "answer": "k.20-25m",
+                    "thumb": "",
+                    "sortOrder": 11,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559018661,
+            "question": "Any geological hazards taken Place on the site?",
+            "serialNumber": 19,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 04:44:21",
+            "updated_at": "2019-07-10 14:50:29",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562849813,
+                    "questionId": "1559018661",
+                    "answer": "c.Avalanche",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849813,
+                    "questionId": "1559018661",
+                    "answer": "b.Landslide",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849813,
+                    "questionId": "1559018661",
+                    "answer": "a. No",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849813,
+                    "questionId": "1559018661",
+                    "answer": "f. Tsunami",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849813,
+                    "questionId": "1559018661",
+                    "answer": "e. Flood",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562849813,
+                    "questionId": "1559018661",
+                    "answer": "d.Earthquake",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559018924,
+            "question": "Is the parapet secure against falling ?",
+            "serialNumber": 20,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 04:48:44",
+            "updated_at": "2019-07-10 14:50:44",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562770244,
+                    "questionId": "1559018924",
+                    "answer": "b.No",
+                    "thumb": "thumbs_down",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770244,
+                    "questionId": "1559018924",
+                    "answer": "a.Yes Well Connected",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559019094,
+            "question": "Type of Ownership?",
+            "serialNumber": 4,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 04:51:34",
+            "updated_at": "2019-07-10 14:44:28",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562769987,
+                    "questionId": "1559019094",
+                    "answer": "d.Government",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562769987,
+                    "questionId": "1559019094",
+                    "answer": "c.Historic",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562769987,
+                    "questionId": "1559019094",
+                    "answer": "e.Corporate",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562769987,
+                    "questionId": "1559019094",
+                    "answer": "a. Public",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562769987,
+                    "questionId": "1559019094",
+                    "answer": "f.Community",
+                    "thumb": "",
+                    "sortOrder": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562769987,
+                    "questionId": "1559019094",
+                    "answer": "b.Private",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559019150,
+            "question": "Building on stilts(open ground floor)?",
+            "serialNumber": 21,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 04:52:30",
+            "updated_at": "2019-07-10 14:51:04",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562770264,
+                    "questionId": "1559019150",
+                    "answer": "a.Yes",
+                    "thumb": "thumbs_down",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770264,
+                    "questionId": "1559019150",
+                    "answer": "b.No",
+                    "thumb": "thumbs_up",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559019198,
+            "question": "Inspection Accuracy?",
+            "serialNumber": 21,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424",
+            "code": "1558951016",
+            "created_at": "2019-05-28 04:53:18",
+            "updated_at": "2019-07-09 09:30:41",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562664641,
+                    "questionId": "1559019198",
+                    "answer": "c. Partial",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562664641,
+                    "questionId": "1559019198",
+                    "answer": "a.From outside only",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562664641,
+                    "questionId": "1559019198",
+                    "answer": "b. Contacted Owner also",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1559019277,
+            "question": "Are Balconies provided ?",
+            "serialNumber": 22,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-05-28 04:54:37",
+            "updated_at": "2019-07-10 14:51:19",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562770279,
+                    "questionId": "1559019277",
+                    "answer": "c.Yes,Span Length 1-1.5m",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770279,
+                    "questionId": "1559019277",
+                    "answer": "f.Yes,Span Length 2.5-3m",
+                    "thumb": "",
+                    "sortOrder": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770279,
+                    "questionId": "1559019277",
+                    "answer": "b.Yes,Span Length 0.5-1m",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770279,
+                    "questionId": "1559019277",
+                    "answer": "d.Yes,Span Length 1.5-2m",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770279,
+                    "questionId": "1559019277",
+                    "answer": "e.Yes,Span Length 2-2.5m",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770279,
+                    "questionId": "1559019277",
+                    "answer": "a.No",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1561631816,
+            "question": "Depth of Basement ?",
+            "serialNumber": 7,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016,1558951024",
+            "created_at": "2019-06-27 10:36:56",
+            "updated_at": "2019-07-10 14:47:25",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562770045,
+                    "questionId": "1561631816",
+                    "answer": "more than 9m",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770045,
+                    "questionId": "1561631816",
+                    "answer": "Not Present",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770045,
+                    "questionId": "1561631816",
+                    "answer": "less than 3m",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770045,
+                    "questionId": "1561631816",
+                    "answer": "6-9m",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770045,
+                    "questionId": "1561631816",
+                    "answer": "3-6m",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1561631864,
+            "question": "Total Area of the basement?",
+            "serialNumber": 8,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1559109551",
+            "code": "1558951016,1558951024",
+            "created_at": "2019-06-27 10:37:44",
+            "updated_at": "2019-07-10 14:47:39",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562770059,
+                    "questionId": "1561631864",
+                    "answer": "f.2000-2500 sqft",
+                    "thumb": "",
+                    "sortOrder": 6,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770059,
+                    "questionId": "1561631864",
+                    "answer": "b.300-500 sqft",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770059,
+                    "questionId": "1561631864",
+                    "answer": "e.1500-2000 sqft",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770059,
+                    "questionId": "1561631864",
+                    "answer": "d.1000-1500 sqft",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770059,
+                    "questionId": "1561631864",
+                    "answer": "n. Greater than 30000 sqft",
+                    "thumb": "",
+                    "sortOrder": 14,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770059,
+                    "questionId": "1561631864",
+                    "answer": "k.10000-15000 sqft",
+                    "thumb": "",
+                    "sortOrder": 11,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770059,
+                    "questionId": "1561631864",
+                    "answer": "h.3000-5000 sqft",
+                    "thumb": "",
+                    "sortOrder": 8,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770059,
+                    "questionId": "1561631864",
+                    "answer": "j.7000-10000 sqft",
+                    "thumb": "",
+                    "sortOrder": 10,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770059,
+                    "questionId": "1561631864",
+                    "answer": "o. NA",
+                    "thumb": "",
+                    "sortOrder": 15,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770059,
+                    "questionId": "1561631864",
+                    "answer": "g.2500-3000 sqft",
+                    "thumb": "",
+                    "sortOrder": 7,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770059,
+                    "questionId": "1561631864",
+                    "answer": "c.500-1000 sqft",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770059,
+                    "questionId": "1561631864",
+                    "answer": "l.15000-20000 sqft",
+                    "thumb": "",
+                    "sortOrder": 12,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770059,
+                    "questionId": "1561631864",
+                    "answer": "m.20000-30000 sqft",
+                    "thumb": "",
+                    "sortOrder": 13,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770059,
+                    "questionId": "1561631864",
+                    "answer": "a.100-300 sqft",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770059,
+                    "questionId": "1561631864",
+                    "answer": "i.5000-7000 sqft",
+                    "thumb": "",
+                    "sortOrder": 9,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1561708716,
+            "question": "Kitchen facilities?",
+            "serialNumber": 34,
+            "questionType": "textbox",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 07:58:36",
+            "updated_at": "2019-07-10 11:06:46",
+            "deleted_at": null,
+            "answers": []
+        },
+        {
+            "id": 1561713255,
+            "question": "Any Visible Underground Structure and Utilities?",
+            "serialNumber": 10,
+            "questionType": "textbox",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 09:14:15",
+            "updated_at": "2019-07-10 14:48:09",
+            "deleted_at": null,
+            "answers": []
+        },
+        {
+            "id": 1561713318,
+            "question": "Condition of the Underground  Wall?",
+            "serialNumber": 9,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 09:15:18",
+            "updated_at": "2019-07-10 14:47:54",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562770074,
+                    "questionId": "1561713318",
+                    "answer": "d.Not Available",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770074,
+                    "questionId": "1561713318",
+                    "answer": "c.Bad",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770074,
+                    "questionId": "1561713318",
+                    "answer": "a.Good",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770074,
+                    "questionId": "1561713318",
+                    "answer": "b.Average",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1561714520,
+            "question": "Is Lift /escalators Present?",
+            "serialNumber": 23,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 09:35:20",
+            "updated_at": "2019-07-10 14:51:35",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562770295,
+                    "questionId": "1561714520",
+                    "answer": "Yes,and not working",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770295,
+                    "questionId": "1561714520",
+                    "answer": "Yes,and working",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770295,
+                    "questionId": "1561714520",
+                    "answer": "NO",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1561714568,
+            "question": "Phase of  eletrical system?",
+            "serialNumber": 24,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 09:36:08",
+            "updated_at": "2019-07-10 14:51:48",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562770308,
+                    "questionId": "1561714568",
+                    "answer": "b.Yes, with single phase",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770308,
+                    "questionId": "1561714568",
+                    "answer": "c. Yes, with three phase",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770308,
+                    "questionId": "1561714568",
+                    "answer": "a.No electrical system",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1561714645,
+            "question": "Condition of  electrical wiring system?",
+            "serialNumber": 26,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 09:37:25",
+            "updated_at": "2019-07-10 14:52:59",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562770379,
+                    "questionId": "1561714645",
+                    "answer": "Internal Wiring system",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770379,
+                    "questionId": "1561714645",
+                    "answer": "External Wiring system",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1561714692,
+            "question": "Sanitary system present?",
+            "serialNumber": 27,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 09:38:12",
+            "updated_at": "2019-07-10 14:53:42",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562770422,
+                    "questionId": "1561714692",
+                    "answer": "YES,Inside",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770422,
+                    "questionId": "1561714692",
+                    "answer": "NO",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770422,
+                    "questionId": "1561714692",
+                    "answer": "Yes ,Outsite",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1561714739,
+            "question": "Material used for Sanitary fitting?",
+            "serialNumber": 28,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 09:38:59",
+            "updated_at": "2019-07-10 14:53:56",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562770436,
+                    "questionId": "1561714739",
+                    "answer": "Cast iron",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770436,
+                    "questionId": "1561714739",
+                    "answer": "PVC pipe",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770436,
+                    "questionId": "1561714739",
+                    "answer": "Cement Pipe",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1561714777,
+            "question": "System of gas Supply ?",
+            "serialNumber": 29,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 09:39:37",
+            "updated_at": "2019-07-10 14:54:15",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1563264436,
+                    "questionId": "1561714777",
+                    "answer": "a.Pipeline Supply system",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1563264436,
+                    "questionId": "1561714777",
+                    "answer": "c.Not available",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1563264436,
+                    "questionId": "1561714777",
+                    "answer": "b.Cylinder",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1561714817,
+            "question": "Location from Center Line",
+            "serialNumber": 1,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 09:40:17",
+            "updated_at": "2019-07-09 06:50:03",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562655003,
+                    "questionId": "1561714817",
+                    "answer": "Right from Center line",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562655003,
+                    "questionId": "1561714817",
+                    "answer": "Left from Center Line",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1561714938,
+            "question": "Year of Contruction ?",
+            "serialNumber": 15,
+            "questionType": "textbox",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 09:42:18",
+            "updated_at": "2019-07-10 14:49:25",
+            "deleted_at": null,
+            "answers": []
+        },
+        {
+            "id": 1561714980,
+            "question": "Rain water Goods present?",
+            "serialNumber": 31,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 09:43:00",
+            "updated_at": "2019-07-10 14:54:48",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562770488,
+                    "questionId": "1561714980",
+                    "answer": "Yes",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770488,
+                    "questionId": "1561714980",
+                    "answer": "No",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1561715103,
+            "question": "Fixture and Fitting",
+            "serialNumber": 35,
+            "questionType": "textbox",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 09:45:03",
+            "updated_at": "2019-07-10 11:07:03",
+            "deleted_at": null,
+            "answers": []
+        },
+        {
+            "id": 1561716244,
+            "question": "Any Heavy electrical equipment/sensitive machine present?",
+            "serialNumber": 25,
+            "questionType": "textbox",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1559109551",
+            "code": "1558951016",
+            "created_at": "2019-06-28 10:04:04",
+            "updated_at": "2019-07-10 14:52:02",
+            "deleted_at": null,
+            "answers": []
+        },
+        {
+            "id": 1562651218,
+            "question": "Distance From the Center Line?",
+            "serialNumber": 2,
+            "questionType": "dropdown",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1559109551",
+            "code": "1558951016",
+            "created_at": "2019-07-09 05:46:58",
+            "updated_at": "2019-07-09 06:50:22",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562655022,
+                    "questionId": "1562651218",
+                    "answer": "30-40m",
+                    "thumb": "",
+                    "sortOrder": 4,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562655022,
+                    "questionId": "1562651218",
+                    "answer": "10-20m",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562655022,
+                    "questionId": "1562651218",
+                    "answer": "0-10m",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562655022,
+                    "questionId": "1562651218",
+                    "answer": "20-30m",
+                    "thumb": "",
+                    "sortOrder": 3,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562655022,
+                    "questionId": "1562651218",
+                    "answer": "40-50m",
+                    "thumb": "",
+                    "sortOrder": 5,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1562654716,
+            "question": "Is there any visible distress in gas pipeline system?",
+            "serialNumber": 30,
+            "questionType": "textbox",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1559109551",
+            "code": "1558951016",
+            "created_at": "2019-07-09 06:45:16",
+            "updated_at": "2019-07-10 14:54:33",
+            "deleted_at": null,
+            "answers": []
+        },
+        {
+            "id": 1562735391,
+            "question": "Is stone cladding present?",
+            "serialNumber": 32,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385,1558514394,1558514404,1559032446",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-07-10 05:09:51",
+            "updated_at": "2019-07-10 11:06:29",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562770506,
+                    "questionId": "1562735391",
+                    "answer": "No",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562770506,
+                    "questionId": "1562735391",
+                    "answer": "Yes",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1562737022,
+            "question": "Is Building Identified by the Govt. agency as dilapidated/dangerous buildings ?",
+            "serialNumber": 3,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1559109551",
+            "code": "1558951016",
+            "created_at": "2019-07-10 05:37:02",
+            "updated_at": "2019-07-10 12:09:49",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1562760589,
+                    "questionId": "1562737022",
+                    "answer": "Yes",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1562760589,
+                    "questionId": "1562737022",
+                    "answer": "No",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        },
+        {
+            "id": 1562742920,
+            "question": "Is External Decorations presents?",
+            "serialNumber": 33,
+            "questionType": "radiobutton",
+            "is_required": "N",
+            "level": "1558700990",
+            "scoreType": null,
+            "score": "",
+            "disasterType": "1558514385",
+            "structureType": "1558701090,1558951601,1558951642,1558951673",
+            "surveyorType": "1558701137,1558701412,1558701424,1559109551",
+            "code": "1558951016",
+            "created_at": "2019-07-10 07:15:20",
+            "updated_at": "2019-07-10 11:06:37",
+            "deleted_at": null,
+            "answers": [
+                {
+                    "id": 1651203190,
+                    "questionId": "1562742920",
+                    "answer": "Yes",
+                    "thumb": "",
+                    "sortOrder": 1,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                },
+                {
+                    "id": 1651203190,
+                    "questionId": "1562742920",
+                    "answer": "No",
+                    "thumb": "",
+                    "sortOrder": 2,
+                    "created_at": null,
+                    "updated_at": null,
+                    "deleted_at": null
+                }
+            ]
+        }
+    ]
+}
