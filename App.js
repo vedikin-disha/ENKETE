@@ -9,7 +9,7 @@ export default function App() {
   return (
     <PaperProvider theme={theme}>
       <AuthProvider>
-        <Navigation />
+        <Navigation   />
       </AuthProvider>
     </PaperProvider>
   )
