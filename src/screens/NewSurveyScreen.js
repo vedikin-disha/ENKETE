@@ -506,7 +506,7 @@ const NewSurvey = ({ navigation }) => {
           <Button
             style={styles.btn_large}
             mode="contained"
-            
+           
             contentStyle={{ height: 40 }}
             labelStyle={{ fontSize: 15 }}
             onPress={handleSubmit}
@@ -514,7 +514,7 @@ const NewSurvey = ({ navigation }) => {
             // loading={submitLoader}
             uppercase={false}
           >
-            Start Survey
+           <Text style={{color:'white'}}> Start Survey </Text>
           </Button>
         </View>
       </ScrollView>
@@ -574,11 +574,12 @@ const styles = StyleSheet.create({
   dropdown3BtnTxt: {
     color: theme.colors.textDark,
     textAlign: 'center',
-      fontSize: theme.fontsizes.xlarge,
+      fontSize: 12,
     fontWeight:'600',
     marginHorizontal: 5,
   },
   btn_large: {
+    color:'white',
       marginVertical: 15,
       backgroundColor:'#3371cb',
     justifyContent: 'center'

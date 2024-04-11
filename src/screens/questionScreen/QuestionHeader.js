@@ -19,7 +19,7 @@ const CircleTitle = ({ data, currentItem, totalQuestions, totalAnswers }) => (
         <CircularProgressBase
             {...circleStyle}
             value={data.id==currentItem.id?100:0}
-            radius={58}
+            radius={54}
             activeStrokeColor={'#6989d6'}
             inActiveStrokeColor={'#000'}
         >
@@ -51,7 +51,7 @@ const QuestionHeader = (props) => {
 
     return (
         <View>
-            <Row style={{ marginTop: 10 }}>
+            <Row style={{ marginTop: 10}}>
                 <Title style={{color:'black', fontWeight:'bold'}}>{props.currentItem.title}</Title>
             </Row>
             <Row style={{ marginTop: 5 }}>

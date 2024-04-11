@@ -108,6 +108,7 @@ const ForgetPasswordScreen = ({ navigation }) => {
             <View style={styles.formGroup}>
               {!showOTP &&
                 <TextInput
+                theme={{ colors: { text: 'black' } }}
                   label="Enter Email"
                   placeholder="Enter email"
                   style={styles.textField}
