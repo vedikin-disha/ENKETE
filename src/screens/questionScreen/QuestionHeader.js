@@ -61,11 +61,11 @@ const QuestionHeader = (props) => {
             <Row style={{ marginTop: 5 }}>
                 <View style={{ alignItems: 'center' }}>
                     <Icon name='scale-balance' size={24} style={{ color: theme.colors.defaultBlue, paddingBottom: 5 }} />
-                    <Text style={styles.midSignTxt}>Having resillance booster in structure</Text>
+                    <Text style={styles.midSignTxt}>Having resillance {'\n'} booster in structure</Text>
                 </View>
                 <View style={{ alignItems: 'center' }}>
                     <Icon name='scale-unbalanced' size={24} style={{ color: theme.colors.defaultBlue, paddingBottom: 5 }} />
-                    <Text style={styles.midSignTxt}>Having fragility factor in stucture</Text>
+                    <Text style={styles.midSignTxt}>Having fragility factor{'\n'} in stucture</Text>
                 </View>
                 <View style={{ alignItems: 'center' }}>
                     <Ionicons name='alert' size={24} style={{ color: theme.colors.danger, paddingBottom: 5 }} />
@@ -104,6 +104,7 @@ const styles = StyleSheet.create({
         textAlign: 'center'
     },
     midSignTxt: {
+        textAlign:'center',
         fontSize: 9,
         color:'#000',
         fontWeight: 'bold'

@@ -887,6 +887,7 @@ const QuestionsViewScreenNew = ({ navigation }) => {
                     {questionData[index].data.map((item, i) => {
                         return (
                             <QuestionItem
+                                
                                 key={i}
                                 item={item}
                                 answer={answerState[index][item.id]}

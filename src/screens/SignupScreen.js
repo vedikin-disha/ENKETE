@@ -1,5 +1,5 @@
 import { StyleSheet, View, ScrollView } from 'react-native'
-import React from 'react'
+import React, { useState } from 'react'
 import { Title, Avatar, Text, TextInput, Subheading, Button } from 'react-native-paper'
 import { theme } from '../core/theme'
 import Container from '../components/Container'
@@ -19,6 +19,8 @@ const industryData = ["Agriculture and Allied Industries", "Auto Components", "A
 const qulificationData = ["Bachelor of Architecture - B.Arch", "Bachelor of Arts - B.A.", "Bachelor of Ayurvedic Medicine & Surgery - B.A.M.S.", "Bachelor of Business Administration - B.B.A.", "Bachelor of Commerce - B.Com.", "Bachelor of Computer Applications - B.C.A.", "Bachelor of Dental Surgery - B.D.S.", "Bachelor of Design - B.Des. / B.D.", "Bachelor of Education - B.Ed.", "Bachelor of Engineering / Bachelor of Technology - B.E./B.Tech.", "Bachelor of Fine Arts - BFA / BVA", "Bachelor of Fisheries Science - B.F.Sc./ B.Sc. (Fisheries).", "Bachelor of Homoeopathic Medicine and Surgery - B.H.M.S.", "Bachelor of Laws - L.L.B.", "Bachelor of Library Science - B.Lib. / B.Lib.Sc.", "Bachelor of Mass Communications - B.M.C. / B.M.M.", "Bachelor of Medicine and Bachelor of Surgery - M.B.B.S.", "Bachelor of Nursing", "Bachelor of Pharmacy - B.Pharm / B.Pharma.", "Bachelor of Physical Education - B.P.Ed.", "Bachelor of Physiotherapy - B.P.T.", "Bachelor of Science - B.Sc.", "Bachelor of Social Work - BSW / B.A. (SW)", "Bachelor of Veterinary Science & Animal Husbandry - B.V.Sc. & A.H. / B.V.Sc", "Doctor of Medicine - M.D.", "Doctor of Medicine in Homoeopathy - M.D. (Homoeopathy)", "Doctor of Pharmacy - Pharm.D", "Doctor of Philosophy - Ph.D.", "Doctorate of Medicine - D.M.", "Master of Architecture - M.Arch.", "Master of Arts - M.A.", "Master of Business Administration - M.B.A.", "Master of Chirurgiae - M.Ch.", "Master of Commerce - M.Com.", "Master of Computer Applications - M.C.A.", "Master of Dental Surgery - M.D.S.", "Master of Design - M.Des./ M.Design.", "Master of Education - M.Ed.", "Master of Engineering / Master of Technology - M.E./ M.Tech.", "Master of Fine Arts - MFA / MVA", "Master of Laws - L.L.M.", "Master of Library Science - M.Lib./ M.Lib.Sc.", "Master of Mass Communications / Mass Media - M.M.C / M.M.M.", "Master of Pharmacy - M.Pharm", "Master of Philosophy - M.Phil.", "Master of Physical Education M.P.Ed. / M.P.E.", "Master of Physiotherapy - M.P.T.", "Master of Science - M.Sc.", "Master of Social Work / Master of Arts in Social Work - M.S.W. / M.A. (SW)", "Master of Science in Agriculture - M.Sc. (Agriculture)", "Master of Surgery - M.S.", "Master of Veterinary Science - M.V.Sc."];
 const yearsData = getYears('cu', 1970);
 
+
+
 const initialValues = {
     prefix: PrefixData[0],
     firstName: "",
@@ -35,6 +37,8 @@ const initialValues = {
     yearOfPassing: "",
 }
 
+
+
 const SignupSchema = Yup.object().shape({
     firstName: Yup.string()
         .min(2, 'Too Short!')
@@ -48,9 +52,62 @@ const SignupSchema = Yup.object().shape({
 
 const SignupScreen = ({ navigation }) => {
 
-    const handleSubmit = (values) => {
-        navigation.navigate('SignupTwo', values);
-    }
+    const handleSubmit = async (values) => {
+        try {
+            const url = 'http://192.168.1.100:6000/register';
+            const requestBody = {
+                auth_key: 'ltnfvh18zxItOhP2qzrtynnVvbyniu',
+                email: values.email,
+                password: values.password,
+                prefix:values.prefix,
+                firstName: values.firstName,
+                midName: values.midName,
+                lastName: values.lastName,
+                organization: values.organization,
+                industryType: values.industryType,
+                postalAddress: values.postalAddress,
+                street: values.street,
+                state: values.state,
+                country: values.country,
+                pincode:values.pincode,
+                highestQualification: values.highestQualification,
+                yearOfPassing: values.yearOfPassing,
+            };
+
+            const response = await fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(requestBody),
+            });
+
+            const responseData = await response.json();
+
+            // Check if the request was successful
+            if (response.ok) {
+                navigation.navigate('SignupTwo', values);
+                // Handle successful response
+                console.log('Registration successful:', responseData);
+            } else {
+                // Check if the error is due to email already existing
+                if (responseData.errors && responseData.errors.error === 'Email already exists') {
+                    console.log('Email already exists');
+                    // Handle the case where email already exists
+                } else {
+                    // Handle other error cases
+                    console.error('Registration failed:', responseData);
+                }
+            }
+        } catch (error) {
+            // Handle network errors or other exceptions
+            console.error('Error:', error);
+        }
+    };
+
+    // const handleSubmit = (values) => {
+    //     navigation.navigate('SignupTwo', values);
+    // }
 
     return (
         <Container>
