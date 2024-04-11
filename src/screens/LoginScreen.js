@@ -1,5 +1,5 @@
 import { Pressable, StyleSheet, View } from 'react-native'
-import React, { useContext, useEffect, useMemo } from 'react';
+import React, { useContext, useEffect, useMemo, useState } from 'react';
 import { Text, Caption, TextInput, Button, Headline } from 'react-native-paper';
 import { theme } from '../core/theme'
 import Row from '../components/Row';
@@ -11,6 +11,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import axios from 'axios';
 
 import { Context } from "../context/AuthContext";
+import config from '../config/Configuration';
 
 const initialValues = {
     email: "",
@@ -26,6 +27,8 @@ const LoginSchema = Yup.object().shape({
 });
 
 const LoginScreen = ({ navigation }) => {
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
 
     const { state, signin, tryLocalSignin } = useContext(Context);
 
@@ -50,34 +53,60 @@ const LoginScreen = ({ navigation }) => {
         console.log("show password");
     }
 
-    const handleSubmit = async (values) => {
+    // const handleSubmit = async (values) => {
+    //     try {
+    //         const response = await axios.post('http://192.168.1.100:6000/login', {
+    //             auth_key: "ltnfvh18zxItOhP2qzrtynnVvbyniu", 
+    //             email: values.email,
+    //             password: values.password
+    //         });
+    //         console.log('RESPONSE', response.data);
+    
+    //     //     // Check if login was successful based on response data
+    //         if (response.data.success) {
+    //             console.log('Login successful:', response.data);
+    
+    //             // Navigate to the Dashboard screen or perform any other actions
+    //             navigation.navigate('Dashboard');
+    //         } else {
+    //             console.error('Login failed:', response.data.error);
+    //     //         // Display an error message or take appropriate action
+    //         }
+    //     } catch (error) {
+    //     //     // Handle any errors that occurred during the API call
+    //         console.error('Error:', error);
+    //     //     // Display an error message or take appropriate action
+    //     } finally {
+    //     //     // Reset the submit loader
+    //         setSubmitLoader(false);
+    //     }
+    // }
+    
+    const handleSubmit = async () => {
+        
+    
         // try {
-        //     const response = await axios.post('http://192.168.1.100:6000/login', {
-        //         auth_key: "ltnfvh18zxItOhP2qzrtynnVvbyniu", 
-        //         email: values.email,
-        //         password: values.password
-        //     });
-        //     console.log('RESPONSE', response.data);
+        //     const requestBody = {
+        //         email,
+        //         password,
+        //         auth_key: config.authKey
+        //     };
+        //     console.log("Request Body",requestBody);
     
-        //     // Check if login was successful based on response data
-        //     if (response.data.success) {
-        //         console.log('Login successful:', response.data);
+        //     const response = await axios.post(`${config.baseUrl}/login`, requestBody);
     
-                // Navigate to the Dashboard screen or perform any other actions
+        //     if (response.data.is_successful === '1') {
+        //         console.log('Login successful');
                 navigation.navigate('Dashboard');
         //     } else {
-        //         console.error('Login failed:', response.data.error);
-        //         // Display an error message or take appropriate action
+        //         console.log('Login failed:', response.data.errors.error);
         //     }
         // } catch (error) {
-        //     // Handle any errors that occurred during the API call
-        //     console.error('Error:', error);
-        //     // Display an error message or take appropriate action
-        // } finally {
-        //     // Reset the submit loader
-        //     setSubmitLoader(false);
+        //     console.error('Login Error:', error);
         // }
-    }
+    
+        // setSubmitLoader(false);
+    };
     console.log(handleSubmit)
     
         
@@ -111,7 +140,8 @@ const LoginScreen = ({ navigation }) => {
                             label="Email"
                             left={<TextInput.Icon name="email-outline" color="black" />}
                             keyboardType="email-address"
-                            onChangeText={handleChange('email')}
+                            onChange={handleChange('email')}
+                            onChangeText={setEmail}
                             value={values.email}
                             theme={{ colors: { text: 'black' } }}
                            
@@ -126,7 +156,8 @@ const LoginScreen = ({ navigation }) => {
                             secureTextEntry={showHidePassword.password}
                             left={<TextInput.Icon name="lock-outline" color="black" />}
                             right={<TextInput.Icon name={showHidePassword.icon} color='black' onPress={() => showPassword()} />}
-                            onChangeText={handleChange('password')}
+                            onChange ={handleChange('password')}
+                                onChangeText={setPassword}
                             value={values.password}
                             theme={{ colors: { text: 'black' } }}
                             // error={errors.password ? true : false}

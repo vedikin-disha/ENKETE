@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { View, StyleSheet, Button, StatusBar } from "react-native";
+import { View, StyleSheet, Button, StatusBar, Alert } from "react-native";
 import {
   useTheme,
   Avatar,
@@ -18,6 +18,7 @@ import Row from './Row';
 import { theme } from "../core/theme";
 import { getObjectData } from "../helpers";
 import { TouchableOpacity } from "react-native-gesture-handler";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 
 export function CustomDrawerContent(props) {
@@ -32,13 +33,31 @@ export function CustomDrawerContent(props) {
       console.log(err)
     })
   }
-  
-
+  const handleLogout = () => {
+    Alert.alert(
+      'Logout',
+      'Are you sure you want to logout?',
+      [
+        {
+          text: 'Cancel',
+          style: 'cancel',
+        },
+        {
+          text: 'Logout',
+          onPress: () => {
+            // Perform logout actions here, such as clearing user session or navigating to the login screen
+            props.navigation.navigate('Login');
+          },
+        },
+      ],
+      { cancelable: false }
+    );
+  }
   return (
-    <View style={{ flex: 1, backgroundColor: '#fff' }}>
+    <View style={{ flex: 1, backgroundColor: '#fff', marginTop:0 }}>
       <DrawerContentScrollView {...props}>
         <View style={styles.drawerContent}>
-          <View style={styles.userInfoSection}>
+          <View style={styles.userInfoSection }>
             <View style={{ flexDirection: 'row' }}>
               <View style={{ alignItems: 'center' }}>
                 {state.isSignedIn ?
@@ -94,7 +113,10 @@ export function CustomDrawerContent(props) {
           </View>
 
           <View style={styles.btns}>
-          <TouchableOpacity style={{ flexDirection: 'row', alignItems: 'center' }}>
+            <TouchableOpacity style={{ flexDirection: 'row', alignItems: 'center' }}
+              onPress={() => {
+              props.navigation.navigate("Profile");
+            }}>
             <Icon name="account" size={24} color="black"  style={{marginLeft:10}} />
               <Text style={styles.home_btn}
               >Profile</Text>
@@ -104,7 +126,7 @@ export function CustomDrawerContent(props) {
           <View style={styles.btns}>
             <TouchableOpacity style={{ flexDirection: 'row', alignItems: 'center' }}
              onPress={() => {
-              props.navigation.navigate("PickLocation");
+              props.navigation.navigate("NewSurvey");
             }}>
             <Icon name="menu" size={24} color="black" style={{ marginLeft: 10 }} />
               <Text style={styles.home_btn}                
@@ -124,12 +146,11 @@ export function CustomDrawerContent(props) {
           </TouchableOpacity>
           </View>
           <View style={styles.btns}>
-            <TouchableOpacity style={{ flexDirection: 'row', alignItems: 'center' }}  onPress={() => {
-              props.navigation.navigate("Login");
-            }}>
+            <TouchableOpacity style={{ flexDirection: 'row', alignItems: 'center' }}  onPress={handleLogout}
+            >
             <Icon name="logout" size={24} color="black" style={{ marginLeft: 10 }} />
               <Text style={styles.home_btn}
-               icon="logout  "
+                icon="logout  "
               >Logout</Text>
           </TouchableOpacity>
           </View>
@@ -187,18 +208,16 @@ export function CustomDrawerContent(props) {
         </Drawer.Section>
       }
     </View>
+    
   );
 }
 
 const styles = StyleSheet.create({
   drawerContent: {
     flex: 1,
-    marginTop:0,
-
   },
   userInfoSection: {
     flexDirection: 'row',
-    marginTop: 0,
     paddingTop: 30,
     alignItems: 'center',
     justifyContent:'center',
@@ -210,8 +229,9 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 16,
-    paddingTop: 30,
-    marginTop: 0,
+    paddingTop: 10,
+    paddingBottom:20,
+    marginTop:2,
     alignItems:'center',
     justifyContent:'center',
     flexDirection: 'row',

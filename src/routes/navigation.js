@@ -14,6 +14,7 @@ import SignupScreen from '../screens/SignupScreen';
 import SignupTwoScreen from '../screens/SignupTwoScreen';
 import ForgetPasswordScreen from '../screens/ForgetPasswordScreen';
 import ChangeNewPasswordScreen from '../screens/ChangeNewPasswordScreen';
+import ProfileScreen from '../screens/ProfileScreen';
 
 import HomeScreen from '../screens/HomeScreen';
 import PickLocationScreen from '../screens/PickLocationScreen';
@@ -29,6 +30,7 @@ import { Button} from 'react-native-paper';
 import AddNewScreen from '../screens/conditionInfo/AddNewScreen';
 import { TouchableOpacity } from 'react-native';
 import { Text, StyleSheet, View } from 'react-native'
+import NewSurvey from '../screens/NewSurveyScreen';
 
 const Drawer = createDrawerNavigator();
 const NativeStack = createNativeStackNavigator();
@@ -91,6 +93,17 @@ const App = (navigation) => {
                         component={ForgetPasswordScreen}
                         options={{ headerShown: false }}
                     />
+                     <NativeStack.Screen
+                        name="Profile"
+                        component={ProfileScreen}
+                        options={{
+                            title: "Profile",
+                            headerStyle: {
+                                backgroundColor: "#4b89df",
+                            },
+                            headerTintColor: theme.colors.text,
+                        }}
+                    />
                     <NativeStack.Screen
                         name="ChangeNewPassword"
                         component={ChangeNewPasswordScreen}
@@ -128,6 +141,17 @@ const App = (navigation) => {
     ),
   })}
 />
+<NativeStack.Screen
+                        name="NewSurvey"
+                        component={NewSurvey}
+                        options={{
+                            title: "New Survey",
+                            headerStyle: {
+                                backgroundColor: "#4b89df",
+                            },
+                            headerTintColor: theme.colors.text,
+                        }}
+                    />
                     <NativeStack.Screen
                         name="MapView"
                         component={MapViewScreen}
