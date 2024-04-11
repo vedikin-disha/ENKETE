@@ -152,11 +152,11 @@ const AddNewScreen = (props) => {
   
   return (
     <ScrollView>
-    <View key={props.index}>
+    <View key={props.index} style={{backgroundColor:'#d1dbe'}}>
     
   
       <TouchableOpacity style={styles.button} onPress={toggleModal}>
-        <Text style = {{color:'black', fontWeight:'bold'}}>default Image Setting</Text>
+        <Text style = {{color:'black', fontWeight:'bold'}}>Default Image Setting</Text>
       </TouchableOpacity>
       <Modal
         animationType="slide"
@@ -441,7 +441,7 @@ const AddNewScreen = (props) => {
       {/* Continue with other components and rows... */}
 
       {/* Footer Buttons */}
-      <Row style={{ marginVertical: 5 }}>
+      {/* <Row style={{ marginVertical: 5 }}>
         <Button
           labelStyle={{ color: "#4da191" }}
           icon="shape-circle-plus"
@@ -462,16 +462,16 @@ const AddNewScreen = (props) => {
         >
           Remove Section
         </Button>
-      </Row>
+      </Row> */}
       
-      {/* <QuestionFooter
+      <QuestionFooter
               continueBtnPress={() => finalSubmit()}
               backBtnPress={() => navigation.navigate('Home')}
               disabledContinue={disabledFinalSubmit}
               loadingSubmit={submitLoader}
               btnLeftText='exit'
               btnRightText={!submitLoader ? 'Finish Survey' : 'Finishing ...'}
-            /> */}
+            />
    
 
       

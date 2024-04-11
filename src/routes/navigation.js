@@ -29,9 +29,6 @@ import { Button} from 'react-native-paper';
 import AddNewScreen from '../screens/conditionInfo/AddNewScreen';
 import { TouchableOpacity } from 'react-native';
 import { Text, StyleSheet, View } from 'react-native'
-import ProfileScreen from '../screens/ProfileScreen';
-import UserProfile from '../screens/ProfileScreen';
-import NewSurvey from '../screens/NewSurveyScreen';
 
 const Drawer = createDrawerNavigator();
 const NativeStack = createNativeStackNavigator();
@@ -198,28 +195,6 @@ const App = (navigation) => {
                         component={AddNewScreen}
                         options={{
                             title: "Add New Survey",
-                            headerStyle: {
-                                backgroundColor: "#4b89df",
-                            },
-                            headerTintColor: theme.colors.text,
-                        }}
-                    />
-                    <NativeStack.Screen
-                        name="Profile"
-                        component={ProfileScreen}
-                        options={{
-                            title: "Profile",
-                            headerStyle: {
-                                backgroundColor: "#4b89df",
-                            },
-                            headerTintColor: theme.colors.text,
-                        }}
-                    />
-                    <NativeStack.Screen
-                        name="NewSurvey"
-                        component={NewSurvey}
-                        options={{
-                            title: "New Survey",
                             headerStyle: {
                                 backgroundColor: "#4b89df",
                             },
