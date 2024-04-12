@@ -171,6 +171,7 @@ const QuestionItem = (props) => {
             default:
                 return (
                     <TextInput
+                        theme={{ colors: { text: 'white' } }}
                         style={styles.questionInput}
                         placeholder="Enter Answer here..."
                         onChangeText={(text) => setCurrentValue(text)}
@@ -209,18 +210,22 @@ export default QuestionItem
 
 const styles = StyleSheet.create({
     questionLabel: {
+
         paddingTop: 10,
         paddingBottom: 10,
-        backgroundColor: theme.colors.background,
+        backgroundColor: 'white',
         flexDirection: 'row',
     },
     questionLabelTxt: {
+        color:'black',
+        // backgroundColor:'white',
         flex: 1,
         fontSize: 14,
         paddingLeft: 10,
         fontWeight: 'bold',
     },
     questionInput: {
+        color:'white',
         backgroundColor: theme.colors.backgroundLight,
         borderRadius: 0,
         borderWidth: 1,

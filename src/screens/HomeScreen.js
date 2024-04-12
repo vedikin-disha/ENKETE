@@ -370,7 +370,7 @@ const HomeScreen = ({ navigation }) => {
         <View style={styles.notice_row}>
           <Text style={styles.notice_txt}>Notice or Advertiesment issued by Company</Text>
         </View>
-        <Row>
+        <Row >
           <HomeCard
             style={styles.midCard}
             icon="comment-text-outline"
@@ -533,7 +533,8 @@ const styles = StyleSheet.create({
     height: 110,
   },
   midCard: {
-    width: 170,
+   
+    width: 160,
     height: 80,
   },
   card_txt: {

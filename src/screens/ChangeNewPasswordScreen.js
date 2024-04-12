@@ -78,7 +78,7 @@ const ChangeNewPasswordScreen = ({ route, navigation }) => {
                 source={require('../assets/reset_password.gif')}
                 style={styles.imgIcon}
             />
-            <Title style={{ textAlign: 'center', fontSize: 22 }}>Change New Password</Title>
+            <Title style={{ textAlign: 'center', fontSize: 22 , color:'black',marginTop:10, fontWeight:'bold'}}>Change New Password</Title>
 
             <View>
                 <Formik
@@ -89,29 +89,34 @@ const ChangeNewPasswordScreen = ({ route, navigation }) => {
                     {({ handleChange, handleSubmit, values, errors, touched }) => (
                         <View style={styles.formGroup}>
                             <TextInput
+                               theme={{ colors: { text: 'black' } }}
+                            style={{backgroundColor:'white' }}
                                 label="New Password"
                                 secureTextEntry={true}
-                                left={<TextInput.Icon name="lock-outline" />}
+                                left={<TextInput.Icon name="lock-outline"  color='black'/>}
                                 onChangeText={handleChange('password')}
                                 value={values.password}
                                 error={errors.password ? true : false}
                             />
                             {errors.password && touched.password ? (
-                                <Text>{errors.password}</Text>
+                                <Text style={{color:'black'}}>{errors.password}</Text>
                             ) : null}
                             <TextInput
+                                theme={{ colors: { text: 'black' } }}
+                               style={{backgroundColor:'white', marginTop:10}}
                                 label="Confirm New Password"
                                 secureTextEntry={showHidePassword.password}
-                                left={<TextInput.Icon name="lock-outline" />}
-                                right={<TextInput.Icon name={showHidePassword.icon} onPress={() => showPassword()} />}
+                                left={<TextInput.Icon name="lock-outline" color='black'  />}
+                                right={<TextInput.Icon name={showHidePassword.icon}  color='black'  onPress={() => showPassword()} />}
                                 onChangeText={handleChange('confimPassword')}
                                 value={values.confimPassword}
                                 error={errors.confimPassword ? true : false}
                             />
                             {errors.confimPassword && touched.confimPassword ? (
-                                <Text>{errors.confimPassword}</Text>
+                                <Text style={{color:'black'}}>{errors.confimPassword}</Text>
                             ) : null}
                             <Button
+                             color='#4b89df'
                                 style={styles.btn_large}
                                 mode="contained"
                                 contentStyle={{ height: 45 }}
@@ -121,7 +126,7 @@ const ChangeNewPasswordScreen = ({ route, navigation }) => {
                                 loading={submitLoader}
                                 uppercase={false}
                             >
-                                Submit
+                                <Text style={{color:'white'}}>Submit</Text>
                             </Button>
                         </View>
                     )}
@@ -135,17 +140,20 @@ export default ChangeNewPasswordScreen
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: theme.colors.background,
+        backgroundColor: "#d1dbe9",
         justifyContent: 'flex-start',
         paddingTop: 10,
         paddingHorizontal: 10
     },
     imgIcon: {
+        backgroundColor: "#d1dbe9",
         width: '70%',
         height: '40%',
         alignSelf: 'center'
     },
     formGroup: {
+        marginBottom:7,
+        // backgroundColor:'white',
         justifyContent: 'center',
         paddingHorizontal: 10,
         paddingTop: 20,

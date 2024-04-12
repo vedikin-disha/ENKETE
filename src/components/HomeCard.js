@@ -19,6 +19,7 @@ export default HomeCard
 
 const styles = StyleSheet.create({
     card: {
+       
         marginVertical: 10,
         backgroundColor: '#e9ecf2',
     },

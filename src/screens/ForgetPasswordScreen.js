@@ -82,6 +82,13 @@ const ForgetPasswordScreen = ({ navigation }) => {
     setIsDisabled(false);
 
   }
+  const handleSubmit = () =>{
+    // navigation.navigate('ChangeNewPassword')
+    navigation.navigate('ChangeNewPassword', {
+      otp: 45668,
+      email: 'monishsaha0211@gmail.com'
+    })}
+  
 
   return (
     <Container style={styles.container}>
@@ -103,11 +110,12 @@ const ForgetPasswordScreen = ({ navigation }) => {
         validationSchema={forgetPassSchema}
         onSubmit={saveAndContinue}
       >
-        {({ handleChange, setFieldValue, handleSubmit, values, errors, touched }) => (
+        {({ handleChange, setFieldValue, values, errors, touched }) => (
           <ScrollView>
             <View style={styles.formGroup}>
               {!showOTP &&
                 <TextInput
+                theme={{ colors: { text: 'black' } }}
                   label="Enter Email"
                   placeholder="Enter email"
                   style={styles.textField}
@@ -120,7 +128,7 @@ const ForgetPasswordScreen = ({ navigation }) => {
                 />
               }
               {errors.email && touched.email ? (
-                <Text style={{ padding: 2 }}>{errors.email}</Text>
+                <Text style={{ padding: 2, color:'black' }}>{errors.email}</Text>
               ) : null}
               {showOTP &&
                 <View style={styles.formChildGroup}>
@@ -151,7 +159,7 @@ const ForgetPasswordScreen = ({ navigation }) => {
                 loading={submitLoader}
                 uppercase={false}
               >
-                Submit
+                <Text style = {{color:'white'}}>Submit</Text>
               </Button>
             </View>
           </ScrollView>
